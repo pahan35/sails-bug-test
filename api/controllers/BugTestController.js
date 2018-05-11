@@ -6,5 +6,15 @@
  */
 
 module.exports = {
+
+  testAwaitAssigning(req, res) {
+    BugTestService.testAwaitAssigning();
+    res.ok();
+  },
+
+  testIndexDebug(res, req) {
+    BugTestService.testIndexDebug();
+    res.ok();
+  },
 };
 

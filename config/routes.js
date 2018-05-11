@@ -34,7 +34,11 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+
+  '/test/await-assigning' : 'BugTestController.testAwaitAssigning',//,
+  
+  '/test/index-debug' : 'BugTestController.testIndexDebug',//
 
   /***************************************************************************
   *                                                                          *
