@@ -4,6 +4,7 @@
 
 const BugTestService = {
 
+  //Looks like already fixed
   async testAwaitAssigning() {
     const justPromise = () => {
       return new Promise((resolve, reject) => {
