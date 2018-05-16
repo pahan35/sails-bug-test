@@ -24,7 +24,7 @@
     "sails-disk": "~0.10.9"
   },
   "scripts": {
-    "debug": "node debug app.js",
+    "debug": "node %NODE_DEBUG_OPTION% app.js",
     "start": "node app.js"
   },
   "main": "app.js",
