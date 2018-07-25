@@ -1,0 +1,19 @@
+version: '3.1'
+services:
+
+  mongo:
+    image: mongo
+    command: --smallfiles
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: devp35/sails-bug-test:latest
+    environment:
+      PORT: 1337
+    ports:
+      - 1337:1337
+      - 3035:3035
+      - 9229:9229
+    entrypoint: ["npm", "run", "remote-debug"]

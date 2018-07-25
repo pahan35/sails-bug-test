@@ -27,6 +27,7 @@
   "scripts": {
     "debug": "node %NODE_DEBUG_OPTION% app.js",
     "remote-debug": "node --inspect=3035 app.js",
+    "remote-debug-default": "node --inspect app.js",
     "start": "node app.js"
   },
   "main": "app.js",
