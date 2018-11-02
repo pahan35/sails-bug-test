@@ -22,6 +22,10 @@ const BugTestService = {
   testIndexDebug() {
     const customModule = require('./../../custom_module/index');
     customModule.testMe();
+  },
+
+  testUnresolvedRequire() {
+    const nodeZoho = require('node-zoho');
   }
 
 };
