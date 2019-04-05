@@ -35,5 +35,8 @@
     "url": "git://github.com/anonymous node/sails user/sails-bug-test.git"
   },
   "author": "anonymous node/sails user",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
 }
