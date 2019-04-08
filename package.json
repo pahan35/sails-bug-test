@@ -24,7 +24,7 @@
     "sails-disk": "~0.10.9"
   },
   "scripts": {
-    "debug": "node %NODE_DEBUG_OPTION% app.js",
+    "debug": "node app.js",
     "remote-debug": "node --inspect=3035 app.js",
     "remote-debug-default": "node --inspect app.js",
     "start": "node app.js"
